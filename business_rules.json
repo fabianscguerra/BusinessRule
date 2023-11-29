@@ -1,0 +1,14 @@
+[
+  {
+    "ruleName": "Frete Gratis",
+    "description": "Aplicar frete grátis em pedidos com valor superior a R$ 500",
+    "conditions": {
+      "orderValue": {
+        "greaterThan": 500
+      }
+    },
+    "actions": {
+      "applyFreeShipping": true
+    }
+  }
+]
